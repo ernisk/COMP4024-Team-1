@@ -1,0 +1,5 @@
+**/[Ll]ibrary/**
+.build/
+.cache/
+.do-not-commit
+.vscode/
