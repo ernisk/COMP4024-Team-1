@@ -10,6 +10,15 @@
 #### Team development
 Within the team we had a variety of strengths and weaknesses as as well as a range of personality types. 
 
+|Member|Strength|Weakness|Personality|
+ |-------- | ------- | ------- | ------- | 
+ |Meet|Documentation, Diagrams, Programming|Unity|Finish/ Implementer|
+ |Ernestas|Scrum experience, Programming, Team Management, Github|Documentation, Unity|Implementer/Teamworker|
+ |Kaliza|UML Diagrams, Programming|Unity|Implementer/Teamworker|
+ |Yuheng|HCI,Basic Programming, User Experience/Design|Unity|Implementer/Teamworker|Implementer|
+ |Dhanya|HCI , Basic Programming, User Experience/Design|Unity|Implementer|
+ |Muhammed|Unity, Programming, HCI, Audio Composer|Documentation|Implementer|
+ 
 ## Aim 
 Create a game suitable for children aged 10 and 14 years. The game can be 2D or 3D and must be developed using Unity. Need to learn
 to use Git, plan your project, and develop it based on use cases and tests. Total work of 50 hours work each over the period, which
