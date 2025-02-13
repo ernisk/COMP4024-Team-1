@@ -7,6 +7,8 @@
 - Kaliza Gbonda | 20361847 | Developer
 - Yuheng Sheng | 20678014 | Developer
 - Dhanya Kumari Nallakandi | 20712556 | Developer
+- Disha Shankar | 20652970 | Developer
+  
 #### Team development
 Within the team we had a variety of strengths and weaknesses as as well as a range of personality types. 
 
@@ -18,6 +20,8 @@ Within the team we had a variety of strengths and weaknesses as as well as a ran
  |Yuheng|HCI,Basic Programming, User Experience/Design|Unity|Implementer/Teamworker|Implementer|
  |Dhanya|HCI , Basic Programming, User Experience/Design|Unity|Implementer|
  |Muhammed|Unity, Programming, HCI, Audio Composer|Documentation|Implementer|
+ |Disha| Interaction designer, Ui UX, User research|Unity|Implementer/Planter| 
+
  
 ## Aim 
 Create a game suitable for children aged 10 and 14 years. The game can be 2D or 3D and must be developed using Unity. Need to learn
