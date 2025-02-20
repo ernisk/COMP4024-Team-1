@@ -6,13 +6,13 @@ using UnityEditor;
 
 public class MainMenuController : UnityEngine.MonoBehaviour
 {
-    // Play butonuna basıldığında Level_1 sahnesi yüklenir.
+    // Play button running level
     public void PlayGame()
     {
         SceneManager.LoadScene("Level_1");
     }
     
-    // Quit butonuna basıldığında oyun kapanır.
+    // Quit button closing application
     public void QuitGame()
     {
 #if UNITY_EDITOR
