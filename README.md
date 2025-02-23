@@ -81,6 +81,26 @@ While we monitor the teams progress mostly via Sprint Reviews, Jira burn downs a
 ![GitHubCommits](Resources/ReadMe%20Images/GitHubCommits.png)
 
 ## Testing 
+The **AstroEscape** project has undergone extensive testing to ensure proper functionality across different gameplay mechanics.
+### Manual Testing
+Manual playtesting was conducted to validate:  
+- **Menu Navigation**: Ensured buttons work correctly and screens transition smoothly.  
+- **Level Selection**: Verified levels load correctly and statistics display properly.  
+- **Player Mechanics**: Confirmed movement works as expected in all directions.  
+- **Maze & Question System**: Ensured question prompts behave correctly and answers are validated properly.  
+- **Collectibles System**: Checked that picking up collectibles updates the score and unlocks achievements.  
+### Automated Unit Testing
+Unit tests were implemented to verify core game mechanics, including:  
+#### Door Unlock System
+- The door unlocks when the correct answer is provided.  
+- The door remains locked with an incorrect answer.  
+#### Collectibles System
+- Players start with zero collectibles.  
+- Picking up a collectible increases the collectible count.  
+### Beta Testing & Feedback
+To further refine the game, we will be conducting a **beta testing phase**, where players can provide feedback through a **survey**. This will help us identify any remaining bugs, improve gameplay mechanics, and enhance overall user experience.
+
+
 ## Development process 
 
 
