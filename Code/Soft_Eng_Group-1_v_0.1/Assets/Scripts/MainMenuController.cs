@@ -9,7 +9,7 @@ public class MainMenuController : UnityEngine.MonoBehaviour
     // Play button running level
     public void PlayGame()
     {
-        SceneManager.LoadScene("Level_1");
+        SceneManager.LoadScene("Levels");
     }
     
     // Quit button closing application
