@@ -105,6 +105,9 @@ To further refine the game, we will be conducting a **beta testing phase**, wher
 Our team embraced pair programming to enhance collaboration and foster continuous learning. We leveraged VS Code Live Share to connect remotely and work on the same codebase in real-time. This tool enabled us to share our screens, work on code together, and resolve any issues. To complement the coding sessions, we set up Microsoft Teams calls where we could discuss our strategies, provide instant feedback, and brainstorm solutions. During these sessions, team members alternated between the actively writing code and reviewing and guiding the coding process. This rotation not only improved our code quality by catching potential issues early but also helped spread knowledge and skills across the team.
 ### Mob Programming
 To further enhance team collaboration and collective problem-solving, we also incorporated mob programming into our workflow. We dedicated specific time slots during our weekly sprint meetings for these sessions. During mob programming, the entire team focused on solving a particular challenge or developing a new feature together. One team member would take control of the keyboard, while everyone else contributed ideas, reviewed the code, and discussed various approaches. This inclusive environment ensured that the final solution benefitted from diverse perspectives and collective expertise. It also allowed us to address complex problems more effectively and helped maintain high coding standards, as the group continuously evaluated and refined the code.
+
+<img src="Resources/ReadMe%20Images/GroupWork.jpg" width=500 height=300>
+
 ### Benefits and Outcomes
 The combination of pair and mob programming had several positive outcomes for our project:
 -	Enhanced Collaboration: Both approaches fostered a strong sense of teamwork and ensured that everyone was actively involved in the development process.
