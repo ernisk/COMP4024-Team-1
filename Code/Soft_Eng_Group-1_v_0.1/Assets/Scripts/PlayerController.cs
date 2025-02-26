@@ -3,6 +3,9 @@ using UnityEngine.SceneManagement; // Required for scene transitions
 
 public class PlayerController2D : MonoBehaviour
 {
+    [Header("Movement Settings")]
+    public float moveSpeed = 5f; // Movement speed
+
     private Rigidbody2D rb;
     private Vector2 movementInput;
 
@@ -13,6 +16,7 @@ public class PlayerController2D : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>(); // Get the Rigidbody2D component
     }
+
     void Update()
     {
         // Get keyboard input (WASD or arrow keys)
@@ -21,5 +25,11 @@ public class PlayerController2D : MonoBehaviour
 
         // Normalize input to prevent excessively fast diagonal movement
         movementInput = movementInput.normalized;
-    }   
+    } 
+      
+    void FixedUpdate()
+    {
+        // Move using Rigidbody2D
+        rb.velocity = movementInput * moveSpeed;
+    }
 }
