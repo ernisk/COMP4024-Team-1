@@ -1,5 +1,37 @@
 # COMP4024 Team-1 Coursework
 ---
+
+## Aim 
+Create a game suitable for children aged 10 and 14 years. The game can be 2D or 3D and must be developed using Unity. Need to learn
+to use Git, plan your project, and develop it based on use cases and tests. Total work of 50 hours work each over the period, which
+should result with a simple playable game at a minimum. 
+
+## Our Game - AstroEscape 
+![TitleImage](Resources/AstroEscape%20Design%20Docs/MenuDesignFiles-Meet/Title.png)
+Astro escape is an exciting 2D educational game designed for kids of age between 10-14. Here, as a interstellar explorer, you embark on thrilling missions across mysterious planets, navigating intricate mazes, solving challenging puzzles, and uncovering hidden secrets. to get through each maze, one must unlock the doors by answering subject based questions in Mathematics, computer science and a few other topics, with multiple-choice, true/false, and matching questions, the game blends learning with exploration in a fun and engaging way. Collecting precious artifacts and hidden rewards encourage curiosity and deeper discovery. Through the adventurous journey on various planets, one can sharpen their skills to solve problems and enhance their ability to think logically. Are you ready to overcome the challenges of deep space and unlock the mysteries of the universe, or will you be lost in the vastness of the cosmos? <br>
+<h3>Game Controls</h3>
+•	Move Your Explorer: WASD<br>
+•	Interact with Doors & Objects <br>
+<h3>How to Play</h3>
+Navigate the Maze <br> 
+•	Move through a top-down 2D maze filled with twists, turns, and obstacles.<br>
+•	Explore every corner—there are hidden collectibles to find!<br>
+Solve Door Challenges<br> 
+•	Some doors are locked and require you to answer a question to pass.<br>
+•	Questions cover Math, Computer Science, and other STEM topics.<br>
+•	Answer correctly to open the door! If you get it wrong, you can try again or use a hint after multiple attempts.<br>
+Collect Stars & Artifacts <br> 
+•	Throughout the maze, you’ll find stars, cosmic crystals.<br>
+•	These increase your score and can unlock achievements.<br>
+Beat the Timer (Optional) <br>
+•	Want an extra challenge? Try to complete the maze as fast as possible!<br>
+•	Your final score is based on maze completion time, question accuracy, and collectibles found.<br>
+Advance to New Planets <br>
+•	Each planet has unique environments, hazards, and more challenging mazes.<br>
+•	As you progress, the questions become tougher, testing your skills! <br><br>
+
+The adventure begins now—click play, explore, learn, and become a legend!
+
 ## Team
 - Meet Patel | 20371443 |Team Lead/Admin 
 - Ernestas Kaziulis | 20334262 | Git/Jira Lead (Scrum Master) 
@@ -7,6 +39,8 @@
 - Kaliza Gbonda | 20361847 | Developer
 - Yuheng Sheng | 20678014 | Developer
 - Dhanya Kumari Nallakandi | 20712556 | Developer
+- Disha Shankar | 20652970 | Developer
+  
 #### Team development
 Within the team we had a variety of strengths and weaknesses as as well as a range of personality types. 
 
@@ -18,48 +52,29 @@ Within the team we had a variety of strengths and weaknesses as as well as a ran
  |Yuheng|HCI,Basic Programming, User Experience/Design|Unity|Implementer/Teamworker|Implementer|
  |Dhanya|HCI , Basic Programming, User Experience/Design|Unity|Implementer|
  |Muhammed|Unity, Programming, HCI, Audio Composer|Documentation|Implementer|
- 
-## Aim 
-Create a game suitable for children aged 10 and 14 years. The game can be 2D or 3D and must be developed using Unity. Need to learn
-to use Git, plan your project, and develop it based on use cases and tests. Total work of 50 hours work each over the period, which
-should result with a simple playable game at a minimum. 
-
-## Our Game - AstroEscape 
-Astro escape is an exciting 2D educational game designed for kids of age between 10-14. Here, as a interstellar explorer, you embark on thrilling missions across mysterious planets, navigating intricate mazes, solving challenging puzzles, and uncovering hidden secrets. to get through each maze, one must unlock the doors by answering subject based questions in Mathematics, computer science and a few other topics, with multiple-choice, true/false, and matching questions, the game blends learning with exploration in a fun and engaging way. Collecting precious artifacts and hidden rewards encourage curiosity and deeper discovery. Through the adventurous journey on various planets, one can sharpen their skills to solve problems and enhance their ability to think logically. Are you ready to overcome the challenges of deep space and unlock the mysteries of the universe, or will you be lost in the vastness of the cosmos? <br>
-<h3>Game Controls</h3>
-•	Move Your Explorer: Arrow Keys WASD<br>
-•	Interact with Doors & Objects: Press Spacebar<br>
-•	Pause the Game: Press Esc or Click the Pause Button<br>
-<h3>How to Play</h3>
-Navigate the Maze <br> 
-•	Move through a top-down 2D maze filled with twists, turns, and obstacles.<br>
-•	Explore every corner—there are hidden collectibles to find!<br>
-Solve Door Challenges<br> 
-•	Some doors are locked and require you to answer a question to pass.<br>
-•	Questions cover Math, Computer Science, and other STEM topics.<br>
-•	Answer correctly to open the door! If you get it wrong, you can try again or use a hint after multiple attempts.<br>
-Collect Stars & Artifacts <br> 
-•	Throughout the maze, you’ll find stars, cosmic crystals, and alien relics.<br>
-•	These increase your score and can unlock achievements.<br>
-Beat the Timer (Optional) <br>
-•	Want an extra challenge? Try to complete the maze as fast as possible!<br>
-•	Your final score is based on maze completion time, question accuracy, and collectibles found.<br>
-Advance to New Planets <br>
-•	Each planet has unique environments, hazards, and more challenging mazes.<br>
-•	As you progress, the questions become tougher, testing your skills! <br><br>
-
-The adventure begins now—click play, explore, learn, and become a legend!
-
+ |Disha| Interaction designer, Ui UX, User research|Unity|Implementer/Planter| 
 
 ## Planning Documents 
-Initial Ideas <br>
-Stakeholder Description <br>
-User Stories <br>
-MVP Plan <br>
-Requirements <br> 
+[Initial Ideas](Documents/Written%20Project%20Docs/GameIdeasAndReasons-Kaliza.pdf)
+
+[Stakeholder Description](Documents/Written%20Project%20Docs/StakeholdersDescription-Kaliza.pdf)
+
+[User Stories](Documents/Written%20Project%20Docs/AstroEscape(User%20stories)-Yuheng.pdf)
+
+[MVP](Documents/Written%20Project%20Docs/MinimumViableProduct-Ernestas.pdf)
+
+[Requirements](Documents/Written%20Project%20Docs/NEWrequirements-Kaliza.pdf)
 
 ## Scheduling 
-Meeting Minutes 
+To ensure effective collaboration and project progress, our team implemented a structured scheduling system for sprint meetings and development tasks. We began by tracking team members' availability and determined that Tuesdays would be the best day for sprint meetings.
+
+[AvailableTimings](Documents/Team%20Info/AvailibleTimings.pdf)
+
+We meticulously documented all meetings, tracking key details such as attendance, discussion points, progress updates, and agreed actions. This information was recorded in a structured meeting log, allowing us to monitor our development milestones effectively. Sprint meetings focused on task distribution, retrospectives, prototype development, and refining game mechanics.
+
+[MeetingMinutes](Documents/Team%20Info/MeetingMinutes.pdf)
+
+Communication tools like Teams and WhatsApp helped us stay connected between meetings. By maintaining detailed records and utilizing these tools, we ensured that our team remained aligned and productive throughout the project.
 
 ## Progress monitoring
 
@@ -81,11 +96,11 @@ For the team project tasks organisation we use Jira. Jira is an exceptional spri
 
 Jira provides the tools to create detailed tasks and assign them between backlog and current sprint.
 
-![JiraBacklog](Resources/ReadMe%20Images/JiraBacklog.png)
+<img src="Resources/ReadMe%20Images/JiraBacklog.png" width=600 height=300>
 
 Once tasks are moved from backlog to sprint list and sprint has been started; then the <b>Kanban Board</b> is updated to the active sprint. This makes it easier to track each persons tasks and what they are currently developing
 
-![JiraKanban](Resources/ReadMe%20Images/JiraKanban.png)
+<img src="Resources/ReadMe%20Images/JiraKanban.png" width=600 height=300>
 
 Jira also provides the useful tool to create automated reports including <b>sprint burndown charts </b> from the report section.
 
@@ -104,6 +119,9 @@ While we monitor the teams progress mostly via Sprint Reviews, Jira burn downs a
 
 ## Testing 
 The **AstroEscape** project has undergone extensive testing to ensure proper functionality across different gameplay mechanics.
+
+[Test Cases And Simple Tests](Documents/Written%20Project%20Docs/TestCasesAndSimpleTests-Meet.pdf)
+
 ### Manual Testing
 Manual playtesting was conducted to validate:  
 - **Menu Navigation**: Ensured buttons work correctly and screens transition smoothly.  
