@@ -2,14 +2,34 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class Questions : MonoBehaviour
+public class PopupOnTriggerPNG : MonoBehaviour
 {
-    // Assign the question image and answer in the inspector
-    public Image question_image; 
-    public string answer_number;
+    [Header("Popup Settings")]
+    [Tooltip("Assign the PNG texture to be used for the popup")]
+    public Texture2D popupTexture;
+    
+    [Tooltip("Scale factor for the popup size. 1 means native size.")]
+    public Vector2 popupScale = Vector2.one;
+    
+    [Tooltip("Key to dismiss the popup and destroy this object if correct answer is given")]
+    public KeyCode dismissKey = KeyCode.Space;
+    
+    [Tooltip("Time in seconds after which the popup auto-dismisses if no correct answer is given")]
+    public float autoDismissTime = 7f;
 
-    // TEMP: StartQuestion method activated when Menu Button is clicked
-    // REPLACE WITH PLAYER TRIGGER BY OBSTACLE OBJECT
+    [Header("Dismiss Audio")]
+    [Tooltip("Audio clip to play when the dismiss key is pressed")]
+    public AudioClip dismissAudioClip;
+
+    // Reference to the instantiated popup UI object
+    private GameObject popupInstance;
+    // Flag to track whether the popup is active
+    private bool popupActive = false;
+    // Reference to the UI canvas
+    private Canvas canvas;
+    // Reference to the auto-dismiss coroutine
+    private Coroutine autoDismissCoroutine;
+
     public void StartQuestion()
     {
         ShowQuestion();
