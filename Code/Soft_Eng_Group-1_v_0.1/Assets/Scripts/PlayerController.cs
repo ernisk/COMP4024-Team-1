@@ -25,11 +25,24 @@ public class PlayerController2D : MonoBehaviour
 
         // Normalize input to prevent excessively fast diagonal movement
         movementInput = movementInput.normalized;
-    } 
-      
+    }
+
     void FixedUpdate()
     {
         // Move using Rigidbody2D
         rb.velocity = movementInput * moveSpeed;
+    }
+
+    // Collision detection for trigger colliders
+    void OnTriggerEnter2D(Collider2D other)
+    {
+
+
+        // If the collided object has the tag "Finish"
+        if (other.CompareTag("Finish"))
+        {
+            Debug.Log("Reached Finish. Loading main menu...");
+            SceneManager.LoadScene("Levels");
+        }
     }
 }
