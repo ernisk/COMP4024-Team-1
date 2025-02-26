@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class PopupOnTriggerPNG : MonoBehaviour
 {
@@ -81,35 +81,86 @@ public class PopupOnTriggerPNG : MonoBehaviour
         }
     }
 
-    // Update if key pressed matches answer number
-    void Update()
+    private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Alpha1) && answer_number == "1")
+        if (popupActive)
         {
-            CorrectAnswer();
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha2) && answer_number == "2")
-        {
-            CorrectAnswer();
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha3) && answer_number == "3")
-        {
-            CorrectAnswer();
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha4) && answer_number == "4")
-        {
-            CorrectAnswer();
+            // Check if the dismiss key is pressed.
+            bool dismissPressed = Input.GetKeyDown(dismissKey);
+
+            // If the dismiss key is a numpad key, also check its alpha equivalent.
+            if (!dismissPressed && IsKeypadKey(dismissKey))
+            {
+                KeyCode alphaKey = GetAlphaEquivalent(dismissKey);
+                dismissPressed = Input.GetKeyDown(alphaKey);
+            }
+
+            if (dismissPressed)
+            {
+                // Play the dismiss audio clip with volume doubled if assigned.
+                if (dismissAudioClip != null)
+                {
+                    AudioSource.PlayClipAtPoint(dismissAudioClip, transform.position, 4f);
+                }
+
+                if (autoDismissCoroutine != null)
+                {
+                    StopCoroutine(autoDismissCoroutine);
+                }
+                
+                if (popupInstance != null)
+                {
+                    Destroy(popupInstance);
+                }
+                popupActive = false;
+                // Correct answer received: destroy this object.
+                Destroy(gameObject);
+            }
         }
     }
 
-    // Correct Answer Method, hiding question image and destroy obstacle object
-    void CorrectAnswer()
+    // Coroutine to auto-dismiss the popup after a certain time if no correct answer is given.
+    IEnumerator AutoDismissPopup()
     {
-        if (question_image != null)
+        yield return new WaitForSeconds(autoDismissTime);
+        if (popupActive)
         {
-            question_image.gameObject.SetActive(false);
+            if (popupInstance != null)
+            {
+                Destroy(popupInstance);
+            }
+            popupActive = false;
+            // Ensure the collider remains a trigger so that the popup system can be triggered again.
+            Collider2D[] colliders = GetComponents<Collider2D>();
+            foreach (Collider2D col in colliders)
+            {
+                col.isTrigger = true;
+            }
+        }
+    }
 
-            // ADD OBSTACLE OBJECT DESTROYED
+    // Helper method to check if a key is a numpad key
+    private bool IsKeypadKey(KeyCode key)
+    {
+        return key >= KeyCode.Keypad0 && key <= KeyCode.Keypad9;
+    }
+
+    // Helper method to get the corresponding alpha key for a numpad key
+    private KeyCode GetAlphaEquivalent(KeyCode keypadKey)
+    {
+        switch (keypadKey)
+        {
+            case KeyCode.Keypad0: return KeyCode.Alpha0;
+            case KeyCode.Keypad1: return KeyCode.Alpha1;
+            case KeyCode.Keypad2: return KeyCode.Alpha2;
+            case KeyCode.Keypad3: return KeyCode.Alpha3;
+            case KeyCode.Keypad4: return KeyCode.Alpha4;
+            case KeyCode.Keypad5: return KeyCode.Alpha5;
+            case KeyCode.Keypad6: return KeyCode.Alpha6;
+            case KeyCode.Keypad7: return KeyCode.Alpha7;
+            case KeyCode.Keypad8: return KeyCode.Alpha8;
+            case KeyCode.Keypad9: return KeyCode.Alpha9;
+            default: return keypadKey;
         }
     }
 }
