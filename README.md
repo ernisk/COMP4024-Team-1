@@ -25,9 +25,31 @@ to use Git, plan your project, and develop it based on use cases and tests. Tota
 should result with a simple playable game at a minimum. 
 
 ## Our Game - AstroEscape 
-Game Mechanics <br> 
-Game Story <br> 
-How to play <br> 
+Astro escape is an exciting 2D educational game designed for kids of age between 10-14. Here, as a interstellar explorer, you embark on thrilling missions across mysterious planets, navigating intricate mazes, solving challenging puzzles, and uncovering hidden secrets. to get through each maze, one must unlock the doors by answering subject based questions in Mathematics, computer science and a few other topics, with multiple-choice, true/false, and matching questions, the game blends learning with exploration in a fun and engaging way. Collecting precious artifacts and hidden rewards encourage curiosity and deeper discovery. Through the adventurous journey on various planets, one can sharpen their skills to solve problems and enhance their ability to think logically. Are you ready to overcome the challenges of deep space and unlock the mysteries of the universe, or will you be lost in the vastness of the cosmos? <br>
+<h3>Game Controls</h3>
+•	Move Your Explorer: Arrow Keys WASD<br>
+•	Interact with Doors & Objects: Press Spacebar<br>
+•	Pause the Game: Press Esc or Click the Pause Button<br>
+<h3>How to Play</h3>
+Navigate the Maze <br> 
+•	Move through a top-down 2D maze filled with twists, turns, and obstacles.<br>
+•	Explore every corner—there are hidden collectibles to find!<br>
+Solve Door Challenges<br> 
+•	Some doors are locked and require you to answer a question to pass.<br>
+•	Questions cover Math, Computer Science, and other STEM topics.<br>
+•	Answer correctly to open the door! If you get it wrong, you can try again or use a hint after multiple attempts.<br>
+Collect Stars & Artifacts <br> 
+•	Throughout the maze, you’ll find stars, cosmic crystals, and alien relics.<br>
+•	These increase your score and can unlock achievements.<br>
+Beat the Timer (Optional) <br>
+•	Want an extra challenge? Try to complete the maze as fast as possible!<br>
+•	Your final score is based on maze completion time, question accuracy, and collectibles found.<br>
+Advance to New Planets <br>
+•	Each planet has unique environments, hazards, and more challenging mazes.<br>
+•	As you progress, the questions become tougher, testing your skills! <br>
+
+The adventure begins now—click play, explore, learn, and become a legend!
+
 
 ## Planning Documents 
 Initial Ideas <br>
