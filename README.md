@@ -46,7 +46,7 @@ Beat the Timer (Optional) <br>
 •	Your final score is based on maze completion time, question accuracy, and collectibles found.<br>
 Advance to New Planets <br>
 •	Each planet has unique environments, hazards, and more challenging mazes.<br>
-•	As you progress, the questions become tougher, testing your skills! <br>
+•	As you progress, the questions become tougher, testing your skills! <br><br>
 
 The adventure begins now—click play, explore, learn, and become a legend!
 
