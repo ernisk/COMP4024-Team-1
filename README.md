@@ -39,7 +39,7 @@ Initial Ideas <br>
 AstroEscape is set in a mysterious alien space station where players take on the role of an astronaut navigating through complex mazes to escape. The core design ideas are as follows:
 
 1. Gameplay
-•	Players control their character using keyboard arrow keys or touch gestures to move through the maze./
+•	Players control their character using keyboard arrow keys or touch gestures to move through the maze.
 •	Players must solve puzzles or collect key items to unlock new paths.
 •	A time limit is set to increase the challenge.
 
