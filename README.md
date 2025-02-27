@@ -165,6 +165,30 @@ Overall, integrating these collaborative programming techniques not only strengt
 ## Development process 
 
 
+## Final Retrospective 
+In conclusion, the team demonstrated strong collaboration over the duration of this project. Due to weekly sprint standups and detailed documentation, the overall organisation ensured a smooth and efficient workflow.
+
+#### Project Planning and Management
+
+At the start of the project, identifying each team member’s strengths and weaknesses allowed us to utilise the skill set of team members in the most effective way and addressed potential upcoming challenges where there were gaps in knowledge. Assigning roles based on these strengths also helped enable better organisation of tasks. <br>
+To manage our workflow, the use of an agile approach using Jira task tracking and GitHub for version control. We held weekly meetings to discuss progress, challenges and any adjustments we felt were necessary. Despite initial challenges with Git due to some team members not having previous experience, the team gradually became proficient. The knowledge sharing between team members enabled those who were less proficient to pick up and learn new skills. The exchange of skills within the team was beneficial is ensuring everyone contributed to all aspects. <br>
+Detailed retrospectives of each sprint enabled to maintain organisation and keep track of the backlog of tasks and upcoming tasks for the next sprint. This came in handy to ensure each team member was aware of what was expected of them each week and gave the opportunity to reflect and improve on things that might not have gone well from the previous sprint. <br>
+
+#### Challenges and Resolutions
+
+- Version control issues: Initially some members were unfamiliar with GitHub. We overcame this by creating a Git guide and providing Git tutorials.
+- Time management: Completing the project within the given time was addressed this by prioritising certain features within our requirements and creating a timeline. Each week we assigned tasks for the upcoming sprints and set realistic goals.
+- Technical limitations: Some members had limited Unity experience. We overcame this by sharing online resources and pair programming as well as live tutorials.
+  
+#### Key Takeaways
+This project helped us learn a lot about successful software engineering management. While some team members had previous experience in agile methodology and working together to roll out software, for some members this was their first experience. Some key learnings were: <br>
+- Effective collaboration: Clear role assignments and structured weekly meetings significantly improved our workflow.
+- Git for collaboration: Mastering Git was a valuable learning curve that enhanced our teamwork and allowed for efficient collaboration.
+- Testing and Iteration: Frequent testing enabled us to refine the game mechanics and usability.
+
+#### Conclusion 
+
+Overall, this project was an excellent learning experience in software engineering management. We successfully met the educational goals for the target audience. More importantly, we developed collaboration, planning and technical skills that will benefit us in future projects. Our team worked effectively, and the experience has given us insight into the real world, preparing us for industry practice.
 
 
 
