@@ -38,28 +38,31 @@ Initial Ideas <br>
 
 AstroEscape is set in a mysterious alien space station where players take on the role of an astronaut navigating through complex mazes to escape. The core design ideas are as follows:
 
-1. Gameplay
-•	Players control their character using keyboard arrow keys or touch gestures to move through the maze.
-•	Players must solve puzzles or collect key items to unlock new paths.
-•	A time limit is set to increase the challenge.
+1. Gameplay<br>
+•	Players control their character using keyboard arrow keys or touch gestures to move through the maze.<br>
+•	Players must solve puzzles or collect key items to unlock new paths.<br>
+•	A time limit is set to increase the challenge.<br>
 
-2. Level Design
-•	Beginner Levels: Tutorial levels to help players get familiar with controls.
-•	Intermediate Levels: More complex mazes with added traps and hidden passages.
-•	Advanced Levels: Requires the use of multiple puzzle-solving techniques and offers higher difficulty.
-3. Design Issue
-•	Design three sections of the problem, including: mathematics, science, computer science related knowledge three sections
-•	Design three different difficulty banks to better cope with the difficulty of three different levels
+2. Level Design<br>
+•	Beginner Levels: Tutorial levels to help players get familiar with controls.<br>
+•	Intermediate Levels: More complex mazes with added traps and hidden passages.<br>
+•	Advanced Levels: Requires the use of multiple puzzle-solving techniques and offers higher difficulty.<br>
 
-4. Character and Art Style
-•	Main Character: A cute astronaut in a futuristic spacesuit.
-•	Art Style: Sci-fi cartoon style with bright colors to enhance appeal.
-5. Interaction and Reward System
-•	Players can collect stars or energy blocks as score rewards.
-•	Using less time and collecting more stars will give the player a higher score
-6. Sound and Music
-•	Uses electronic sci-fi music to create a futuristic atmosphere.
-•	Add sound feedback (e.g. bonus item collection, use of help buttons to suggest yes, etc.) to enhance immersion.
+3. Design Issue<br>
+•	Design three sections of the problem, including: mathematics, science, computer science related knowledge three sections<br>
+•	Design three different difficulty banks to better cope with the difficulty of three different levels<br>
+
+4. Character and Art Style<br>
+•	Main Character: A cute astronaut in a futuristic spacesuit.<br>
+•	Art Style: Sci-fi cartoon style with bright colors to enhance appeal.<br>
+
+5. Interaction and Reward System<br>
+•	Players can collect stars or energy blocks as score rewards.<br>
+•	Using less time and collecting more stars will give the player a higher score<br>
+
+6. Sound and Music<br>
+•	Uses electronic sci-fi music to create a futuristic atmosphere.<br>
+•	Add sound feedback (e.g. bonus item collection, use of help buttons to suggest yes, etc.) to enhance immersion.<br>
 
 Stakeholder Description <br>
 
