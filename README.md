@@ -35,7 +35,6 @@ How to play <br>
 
 ## Planning Documents 
 Initial Ideas <br>
-Initial Ideas
 
 AstroEscape is set in a mysterious alien space station where players take on the role of an astronaut navigating through complex mazes to escape. The core design ideas are as follows:
 
