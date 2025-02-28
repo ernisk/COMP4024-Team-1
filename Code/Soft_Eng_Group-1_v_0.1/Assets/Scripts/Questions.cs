@@ -116,10 +116,10 @@ public class PopupOnTriggerPNG : MonoBehaviour
                 // Correct answer received: destroy this object.
                 Destroy(gameObject);
             }
-            // Eğer kullanıcı yanlış bir tuşa basarsa, popup'u kapat.
+           
             else if (Input.anyKeyDown)
             {
-                // Düzgün kapatma: herhangi bir tuş basımı ama doğru tuş değil.
+                
                 if (autoDismissCoroutine != null)
                 {
                     StopCoroutine(autoDismissCoroutine);
@@ -134,7 +134,7 @@ public class PopupOnTriggerPNG : MonoBehaviour
         }
     }
 
-    // Coroutine to auto-dismiss the popup after a certain time if no correct answer is given.
+  
     IEnumerator AutoDismissPopup()
     {
         yield return new WaitForSeconds(autoDismissTime);
