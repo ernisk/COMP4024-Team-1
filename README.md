@@ -65,6 +65,7 @@ Within the team we had a variety of strengths and weaknesses as as well as a ran
 
 [Requirements](Documents/Written%20Project%20Docs/NEWrequirements-Kaliza.pdf)
 
+
 ## Scheduling 
 To ensure effective collaboration and project progress, our team implemented a structured scheduling system for sprint meetings and development tasks. We began by tracking team members' availability and determined that Tuesdays would be the best day for sprint meetings.
 
