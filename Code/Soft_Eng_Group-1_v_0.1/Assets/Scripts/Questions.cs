@@ -85,17 +85,17 @@ public class PopupOnTriggerPNG : MonoBehaviour
     {
         if (popupActive)
         {
-            // Check if the dismiss key is pressed.
-            bool dismissPressed = Input.GetKeyDown(dismissKey);
+            // Check if the correct dismiss key is pressed.
+            bool correctKeyPressed = Input.GetKeyDown(dismissKey);
 
             // If the dismiss key is a numpad key, also check its alpha equivalent.
-            if (!dismissPressed && IsKeypadKey(dismissKey))
+            if (!correctKeyPressed && IsKeypadKey(dismissKey))
             {
                 KeyCode alphaKey = GetAlphaEquivalent(dismissKey);
-                dismissPressed = Input.GetKeyDown(alphaKey);
+                correctKeyPressed = Input.GetKeyDown(alphaKey);
             }
 
-            if (dismissPressed)
+            if (correctKeyPressed)
             {
                 // Play the dismiss audio clip with volume doubled if assigned.
                 if (dismissAudioClip != null)
@@ -115,6 +115,21 @@ public class PopupOnTriggerPNG : MonoBehaviour
                 popupActive = false;
                 // Correct answer received: destroy this object.
                 Destroy(gameObject);
+            }
+            // Eğer kullanıcı yanlış bir tuşa basarsa, popup'u kapat.
+            else if (Input.anyKeyDown)
+            {
+                // Düzgün kapatma: herhangi bir tuş basımı ama doğru tuş değil.
+                if (autoDismissCoroutine != null)
+                {
+                    StopCoroutine(autoDismissCoroutine);
+                }
+                
+                if (popupInstance != null)
+                {
+                    Destroy(popupInstance);
+                }
+                popupActive = false;
             }
         }
     }
