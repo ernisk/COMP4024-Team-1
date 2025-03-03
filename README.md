@@ -166,32 +166,32 @@ Overall, integrating these collaborative programming techniques not only strengt
 
 
 ## Development process 
-####Week 1
-In the first week, our team mainly completed mutual understanding and familiarity between team members. At the same time, through corresponding tests, we tested out the most suitable role for each person in the team and assigned corresponding work. At the same time, we selected our team leader. Everyone has a preliminary understanding and planning of the project, and everyone is working together to make suggestions for future projects.
+Week 1<br>
+In the first week, our team mainly completed mutual understanding and familiarity between team members. At the same time, through corresponding tests, we tested out the most suitable role for each person in the team and assigned corresponding work. At the same time, we selected our team leader. Everyone has a preliminary understanding and planning of the project, and everyone is working together to make suggestions for future projects.<br>
 
-####Week 2
+Week 2<br>
 In the preliminary project design, our team's plan for the whole project is still in the discussion stage. The draft contains four plans for the gameplay and structure of the preliminary game, as shown below (refer to Planning Documents-Initiial Ideas).
-At the same time, under the leadership of our team leader, we discussed the use of labyrinth as the main gameplay of the game, and carried out the preliminary construction of the game framework, background and character design.
+At the same time, under the leadership of our team leader, we discussed the use of labyrinth as the main gameplay of the game, and carried out the preliminary construction of the game framework, background and character design.<br>
 
-####Week 3
-Since the main users of this project are teenagers between the ages of 10 and 14, our group unanimously decided to add the concept of "door" to the map of the maze game, which contains relevant knowledge about science, mathematics and computer science. The aim of this initiative is to allow users to relax while also gaining knowledge outside of books, while relaxing the body and mind at the same time being educational.
+Week 3<br>
+Since the main users of this project are teenagers between the ages of 10 and 14, our group unanimously decided to add the concept of "door" to the map of the maze game, which contains relevant knowledge about science, mathematics and computer science. The aim of this initiative is to allow users to relax while also gaining knowledge outside of books, while relaxing the body and mind at the same time being educational.<br>
 In this week, our team also completed the design of the primary scheme, the effect picture is as follows:
-This preliminary design laid the foundation for our team and played a significant role in the development of this project. It defines the gameplay, item collection, door application, time limit gameplay, and so on. Clear direction for future project development and design
+This preliminary design laid the foundation for our team and played a significant role in the development of this project. It defines the gameplay, item collection, door application, time limit gameplay, and so on. Clear direction for future project development and design<br>
 
-####Week 4
+Week 4<br>
 This week, our team mainly completed the preliminary design of game props and the preliminary game programming. At the same time, since not everyone in our team is proficient in programming and software like Unity and github, we have decided to get familiar with how to use it in advance to achieve the final goal, and we have decided to teach the use of software by members of our team who are familiar with Unity next week.
-Meanwhile, within this week, our team completed the writing of User stories, MVP document, Stakeholder Description, Requirements and other documents to make the project more specific and clarify what each team member needs to do. In addition, Muhammed Siam Gulay, a member of our team with rich experience in game development, took the initiative to complete the task of game sound effects, and gave the team members to test and give suggestions in order to achieve better goals in the future.
+Meanwhile, within this week, our team completed the writing of User stories, MVP document, Stakeholder Description, Requirements and other documents to make the project more specific and clarify what each team member needs to do. In addition, Muhammed Siam Gulay, a member of our team with rich experience in game development, took the initiative to complete the task of game sound effects, and gave the team members to test and give suggestions in order to achieve better goals in the future.<br>
 
-####Week 5
+Week 5<br>
 During this week, the team members responsible for programming almost completed the entire AstroEscape game architecture and design. The code will be optimized and expanded over the next few weeks. At the same time, we also completed the design and collection of the question bank in the game, and accurately found the three levels of control for teenagers aged 10-14.
 Meanwhile, in the group meeting every Tuesday this week, Muhammed Siam Gulay, as the teacher, taught us how to use Unity to develop games, how to realize the interaction of roles in software development through code, etc., which will also play a beneficial role in the production and development of games in the future.
 
-####Week 6
+Week 6<br>
 This week, the entire game project is almost fully formed, including the design of the map, the design of the game background, how to achieve the movement of the characters, the question box, and all the game menu functions are implemented and improved. During this period, each team member actively cooperated and built the entire AstriEscape game step by step.
-Meanwhile, this week, our team leader Meet Patel completed the Tests section and uploaded the results to github. At the same time, Ernestas Kaziulis and other team members also jointly completed the writing of github content, so that in the future exhibition process, the audience can better and more clearly see all the work flow and work progress of our team.
+Meanwhile, this week, our team leader Meet Patel completed the Tests section and uploaded the results to github. At the same time, Ernestas Kaziulis and other team members also jointly completed the writing of github content, so that in the future exhibition process, the audience can better and more clearly see all the work flow and work progress of our team.<br>
 
-####Week 7
-This week will be our last week to complete the project. This week we will complete the optimization and integration of the entire project, find the holes in each and all the true content. In order to achieve a complete project, and check the gaps in the production process to analyze the shortcomings and not realized parts. In the future, we will present more complete and perfect projects to you.
+Week 7<br>
+This week will be our last week to complete the project. This week we will complete the optimization and integration of the entire project, find the holes in each and all the true content. In order to achieve a complete project, and check the gaps in the production process to analyze the shortcomings and not realized parts. In the future, we will present more complete and perfect projects to you.<br>
 
 
 
