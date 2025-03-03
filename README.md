@@ -200,25 +200,26 @@ In conclusion, the team demonstrated strong collaboration over the duration of t
 
 #### Project Planning and Management
 
-At the start of the project, identifying each team member’s strengths and weaknesses allowed us to utilise the skill set of team members in the most effective way and addressed potential upcoming challenges where there were gaps in knowledge. Assigning roles based on these strengths also helped enable better organisation of tasks. <br>
-To manage our workflow, the use of an agile approach using Jira task tracking and GitHub for version control. We held weekly meetings to discuss progress, challenges and any adjustments we felt were necessary. Despite initial challenges with Git due to some team members not having previous experience, the team gradually became proficient. The knowledge sharing between team members enabled those who were less proficient to pick up and learn new skills. The exchange of skills within the team was beneficial is ensuring everyone contributed to all aspects. <br>
-Detailed retrospectives of each sprint enabled to maintain organisation and keep track of the backlog of tasks and upcoming tasks for the next sprint. This came in handy to ensure each team member was aware of what was expected of them each week and gave the opportunity to reflect and improve on things that might not have gone well from the previous sprint. <br>
+At the start of the project, identifying each team member’s strengths and weaknesses allowed us to utilise the skill set of team members. It addressed potential upcoming challenges where there were knowledge gaps. Strategically assigning roles based on these strengths also helped enable better organisation of tasks. <br>
+To manage our workflow, we used an agile approach utilising Jira for task tracking and GitHub for version control. We held weekly meetings to discuss progress, identify challenges and any adjustments we felt were necessary. Despite initial challenges with Git due to varying levels of experience within the team, members gradually became proficient. The knowledge sharing between team members enabled those who were less proficient to pick up and learn new skills. The exchange of skills within the team was beneficial in ensuring everyone contributed to all aspects. <br>
+Detailed sprint retrospectives played a key role in maintaining organisation and keeping track of the backlog of tasks. They provided an opportunity to reflect on previous tasks and plan for the upcoming sprint. This came in handy to ensure each team member was aware of their responsibilities and had the opportunity to opportunity to resolve any blocks/ refine things that might not have gone well. <br>
 
 #### Challenges and Resolutions
 
-- Version control issues: Initially some members were unfamiliar with GitHub. We overcame this by creating a Git guide and providing Git tutorials.
-- Time management: Completing the project within the given time was addressed this by prioritising certain features within our requirements and creating a timeline. Each week we assigned tasks for the upcoming sprints and set realistic goals.
-- Technical limitations: Some members had limited Unity experience. We overcame this by sharing online resources and pair programming as well as live tutorials.
-  
+- Version control issues: Initially some members were unfamiliar with GitHub, causing disruptions in the workflow. We overcame this by creating a Git guide and providing tutorials.
+- Time management: Balancing the project within the timeframe was a challenge. This was resolved by prioritising certain features within our requirements, creating a timeline and setting realistic sprint goals.
+- Technical limitations: Some members had limited Unity experience. We overcame this by sharing online resources, pair programming and live tutorials. <br>
+
+While the project was largely successful, an area where we could have improved with hindsight would be to have better risk management. By anticipating potential technical risks earlier on the project would have potentially prevented delays and blocks more efficiently. 
 #### Key Takeaways
-This project helped us learn a lot about successful software engineering management. While some team members had previous experience in agile methodology and working together to roll out software, for some members this was their first experience. Some key learnings were: <br>
-- Effective collaboration: Clear role assignments and structured weekly meetings significantly improved our workflow.
-- Git for collaboration: Mastering Git was a valuable learning curve that enhanced our teamwork and allowed for efficient collaboration.
-- Testing and Iteration: Frequent testing enabled us to refine the game mechanics and usability.
+This project helped us learn a lot about successful software engineering management. While some team members had previous experience in agile methodology and working together to roll out software, for some members this was their first experience. Key learnings include: <br>
+- Effective collaboration: Clear role assignments and structured weekly meetings improved our workflow and productivity.
+- Git for collaboration: Mastering Git was a valuable learning curve that enhanced teamwork and allowed for efficient collaboration.
+- Testing and Iteration: Frequent testing enabled us to refine the game's mechanics and usability.
 
 #### Conclusion 
 
-Overall, this project was an excellent learning experience in software engineering management. We successfully met the educational goals for the target audience. More importantly, we developed collaboration, planning and technical skills that will benefit us in future projects. Our team worked effectively, and the experience has given us insight into the real world, preparing us for industry practice.
+Overall, this project was an excellent learning experience in software engineering management. We successfully met the educational goals for the target audience. More importantly, we developed collaboration, planning and technical skills that will benefit us in future projects. Our team worked effectively and the experience has given us insight into the real world, preparing us for future careers. 
 
 
 
