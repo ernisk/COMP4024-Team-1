@@ -132,12 +132,7 @@ Manual playtesting was conducted to validate:
 - **Collectibles System**: Checked that picking up collectibles updates the score and unlocks achievements.  
 ### Automated Unit Testing
 Unit tests were implemented to verify core game mechanics, including:  
-#### Door Unlock System
-- The door unlocks when the correct answer is provided.  
-- The door remains locked with an incorrect answer.  
-#### Collectibles System
-- Players start with zero collectibles.  
-- Picking up a collectible increases the collectible count.  
+<img src="Resources/ReadMe Images/testing.jpg">
 ### Beta Testing & Feedback
 To further refine the game, we will be conducting a **beta testing phase**, where players can provide feedback through a **survey**. This will help us identify any remaining bugs, improve gameplay mechanics, and enhance overall user experience.
 
